@@ -9,6 +9,6 @@ referenceToDictionary: anObject
 		yourself. 
 		
 	description shouldRememberKind 
-		ifTrue: [ dictionary at: self class fieldType put: anObject className ].
+		ifTrue: [ dictionary at: self class fieldType put: anObject className asString ].
 		
 	^dictionary

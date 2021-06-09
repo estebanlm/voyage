@@ -10,6 +10,6 @@ rawFuture: aFuture
 		yourself. 
 		
 	description shouldRememberKind 
-		ifTrue: [ dictionary at: self class fieldType put: realObject className ].
+		ifTrue: [ dictionary at: self class fieldType put: realObject className asString ].
 		
 	^dictionary
