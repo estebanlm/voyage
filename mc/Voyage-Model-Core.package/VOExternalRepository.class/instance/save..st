@@ -1,4 +1,4 @@
 persistence
 save: anObject
 
-	(self serialize: anObject) execute
+	self executeOperations: (self serialize: anObject)

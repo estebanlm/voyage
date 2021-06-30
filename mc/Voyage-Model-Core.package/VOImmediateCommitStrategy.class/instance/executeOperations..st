@@ -1,0 +1,3 @@
+persistence
+executeOperations: anOperationCollection
+	self processOperations: anOperationCollection 

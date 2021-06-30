@@ -9,4 +9,4 @@ save: anObject using: aBlock withOptions: aCollection
 	aCollection ifNotNil: [  
 		self applyOptions: aCollection to: operations first ].
 	
-	operations execute
+	self executeOperations: operations

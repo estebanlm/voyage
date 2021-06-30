@@ -10,7 +10,8 @@
 	"instvars" : [
 		"cache",
 		"debug",
-		"lazySynchronize"
+		"lazySynchronize",
+		"commitStrategy"
 	],
 	"name" : "VOExternalRepository",
 	"type" : "normal"

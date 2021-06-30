@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "VOCommitStrategy",
+	"category" : "Voyage-Model-Core-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VOImmediateCommitStrategy",
+	"type" : "normal"
+}

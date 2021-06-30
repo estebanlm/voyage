@@ -1,6 +1,7 @@
 persistence
 remove: anObject 
 
-	self removeObjectOperation 
-		object: anObject;
-		execute
+	self executeOperations: (  
+		self removeObjectOperation 
+			object: anObject;
+			asOperationCollection  )

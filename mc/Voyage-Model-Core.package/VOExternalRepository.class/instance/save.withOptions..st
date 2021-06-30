@@ -3,4 +3,4 @@ save: anObject withOptions: aCollection
 	| operations |
 	operations := self serialize: anObject.
 	self applyOptions: aCollection to: operations first.
-	operations execute
+	self executeOperations: operations
